@@ -32,7 +32,7 @@ These are the themes available in this repository:
 
 - [Catppuccin Mocha](./catppuccin.conf)
 - [One Dark](./onedark.conf)
-- [Kanagawa Wav](./kanagawa.conf)
+- [Kanagawa Wave](./kanagawa.conf)
 
 ## License
 
