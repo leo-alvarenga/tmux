@@ -16,6 +16,13 @@ git clone https://github.com/leo-alvarenga/tmux "$HOME/.config/tmux"
 
 For now, at least, there is only one theme available `Kanagawa Wave`.
 
+### Style variants
+
+The status bar comes in two interchangeable looks, picked in `tmux.conf`:
+
+- `styles-powerline.conf` — angled slash separators (`\ue0be` / `\ue0ba`) *(default)*
+- `styles-bubble.conf` — rounded pill separators (`\ue0b6` / `\ue0b4`)
+
 ## License
 
 [MIT License](./LICENSE.md)
