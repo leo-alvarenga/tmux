@@ -6,22 +6,38 @@ A maintainable, **dependency-free** _[tmux](https://github.com/tmux/tmux)_ confi
 
 ## Setup
 
-To setup and use this configuration run this command:
-
 ```bash
 git clone https://github.com/leo-alvarenga/tmux "$HOME/.config/tmux"
 ```
 
+## Layout
+
+```
+tmux.conf                 # orchestrator: sources base → theme → layout
+base/                     # behavior (options, keymaps, plugins)
+themes/                   # color palettes (swap in tmux.conf)
+layouts/                  # status-bar looks (swap in tmux.conf)
+```
+
 ## Theming
 
-For now, at least, there is only one theme available `Kanagawa Wave`.
+Themes define color variables only (palette + generic aliases like `accent`, `bgSurface`, `text`); layouts paint the status bar, borders and message line with those names. Any theme + any layout can be combined.
 
-### Style variants
+**Themes** (edit the `source-file` line in `tmux.conf`):
 
-The status bar comes in two interchangeable looks, picked in `tmux.conf`:
+- `themes/kanagawa.conf` — Kanagawa Wave (default)
+- `themes/everforest.conf` — Everforest (dark, medium)
 
-- `styles-powerline.conf` — angled slash separators (`\ue0be` / `\ue0ba`) *(default)*
-- `styles-bubble.conf` — rounded pill separators (`\ue0b6` / `\ue0b4`)
+To add a theme: copy an existing one and redefine the generic aliases at the bottom of the file — the contracts are documented there.
+
+**Layouts** (edit the `source-file` line in `tmux.conf`):
+
+- `layouts/powerline.conf` — angled slash separators (default)
+- `layouts/bubble.conf` — rounded pill separators
+
+### Note for tmux >= 3.7
+
+Prompts and messages overlay the status line instead of replacing it. `message-style`/`message-command-style` therefore include `fill=…` so the bar spans the full width; keep `fill` when restyling.
 
 ## License
 
