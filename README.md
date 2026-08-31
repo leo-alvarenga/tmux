@@ -34,6 +34,7 @@ To add a theme: copy an existing one and redefine the generic aliases at the bot
 
 - `layouts/powerline.conf` — angled slash separators (default)
 - `layouts/bubble.conf` — rounded pill separators
+- `layouts/classic.conf` — classic powerline chevron separators
 
 ### Note for tmux >= 3.7
 
