@@ -15,26 +15,26 @@ git clone https://github.com/leo-alvarenga/tmux "$HOME/.config/tmux"
 #### Classic layout
 
 Default:
-[!Classic default](./docs/classic.png)
+![Classic default](./docs/classic.png)
 
 Mono:
-[!Classic mono](./docs/classic-mono.png)
+![Classic mono](./docs/classic-mono.png)
 
 #### Bubble layout
 
 Default:
-[!Bubble default](./docs/bubble.png)
+![Bubble default](./docs/bubble.png)
 
 Mono:
-[!Bubble mono](./docs/bubble-mono.png)
+![Bubble mono](./docs/bubble-mono.png)
 
 #### Powerline layout
 
 Default:
-[!Powerline default](./docs/powerline.png)
+![Powerline default](./docs/powerline.png)
 
 Mono:
-[!Powerline mono](./docs/powerline-mono.png)
+![Powerline mono](./docs/powerline-mono.png)
 
 ## Layout
 
