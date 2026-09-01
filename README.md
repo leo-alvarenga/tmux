@@ -1,6 +1,6 @@
 # Tmux
 
-A maintainable, **dependency-free** _[tmux](https://github.com/tmux/tmux)_ config that separates core behavior from styling using sourced `.conf` files simple to extend, easy to style.
+A maintainable, ready-to-use _[tmux](https://github.com/tmux/tmux)_ config that separates core behavior from styling using sourced `.conf` files simple to extend, easy to style.
 
 > Make sure to also check my Neovim configuration, which is designed to work seamlessly with this Tmux setup: [leo-alvarenga/nvim](https://github.com/leo-alvarenga/nvim)
 
@@ -25,16 +25,19 @@ Themes define color variables only (palette + generic aliases like `accent`, `bg
 
 **Themes** (edit the `source-file` line in `tmux.conf`):
 
-- `themes/kanagawa.conf` — Kanagawa Wave (default)
-- `themes/everforest.conf` — Everforest (dark, medium)
+- `themes/kanagawa.conf`: Kanagawa Wave (default)
+- `themes/everforest.conf`: Everforest (dark, medium)
 
-To add a theme: copy an existing one and redefine the generic aliases at the bottom of the file — the contracts are documented there.
+To add a theme: copy an existing one and redefine the generic aliases at the bottom of the file; the contracts are documented there.
 
 **Layouts** (edit the `source-file` line in `tmux.conf`):
 
-- `layouts/powerline.conf` — angled slash separators (default)
-- `layouts/bubble.conf` — rounded pill separators
-- `layouts/classic.conf` — classic powerline chevron separators
+- `layouts/classic.conf`: classic powerline chevron separators, colorful (default)
+- `layouts/classic-mono.conf`: same look, monochromatic
+- `layouts/bubble.conf`: rounded pill separators, colorful
+- `layouts/bubble-mono.conf`: same look, monochromatic
+- `layouts/powerline.conf`: angled slash separators, colorful
+- `layouts/powerline-mono.conf`: same look, monochromatic
 
 ### Note for tmux >= 3.7
 
