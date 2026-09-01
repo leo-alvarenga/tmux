@@ -38,7 +38,7 @@ Default:
 Mono:
 ![Powerline mono](./docs/powerline-mono.png)
 
-## Layout
+## Layouts
 
 ```
 tmux.conf                 # orchestrator: sources base → theme → layout
