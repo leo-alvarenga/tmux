@@ -4,6 +4,8 @@ A maintainable, ready-to-use _[tmux](https://github.com/tmux/tmux)_ config that 
 
 > Make sure to also check my Neovim configuration, which is designed to work seamlessly with this Tmux setup: [leo-alvarenga/nvim](https://github.com/leo-alvarenga/nvim)
 
+This config include 3 layouts, 2 themes and a few plugins. You can read more about the layout logic in [Layouts](#layouts) and the theme logic in [Theming](#theming).
+
 ## Setup
 
 ```bash
