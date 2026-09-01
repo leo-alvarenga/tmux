@@ -10,6 +10,32 @@ A maintainable, ready-to-use _[tmux](https://github.com/tmux/tmux)_ config that 
 git clone https://github.com/leo-alvarenga/tmux "$HOME/.config/tmux"
 ```
 
+## Previews (using the Kanagawa theme)
+
+#### Classic layout
+
+Default:
+[!Classic default](./docs/classic.png)
+
+Mono:
+[!Classic mono](./docs/classic-mono.png)
+
+#### Bubble layout
+
+Default:
+[!Bubble default](./docs/bubble.png)
+
+Mono:
+[!Bubble mono](./docs/bubble-mono.png)
+
+#### Powerline layout
+
+Default:
+[!Powerline default](./docs/powerline.png)
+
+Mono:
+[!Powerline mono](./docs/powerline-mono.png)
+
 ## Layout
 
 ```
